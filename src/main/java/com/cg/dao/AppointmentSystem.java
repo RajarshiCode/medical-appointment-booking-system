@@ -1,13 +1,13 @@
-package com.cj.dao;
+package com.cg.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.*;
-import com.cj.entity.Appointment;
-import com.cj.entity.Doctor;
-import com.cj.entity.InvalidAppointmentException;
-import com.cj.entity.Patient;
+import com.cg.entity.Appointment;
+import com.cg.entity.Doctor;
+import com.cg.entity.InvalidAppointmentException;
+import com.cg.entity.Patient;
 
 import java.util.*;
 

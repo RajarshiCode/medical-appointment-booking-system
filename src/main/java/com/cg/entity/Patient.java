@@ -1,4 +1,4 @@
-package com.cj.entity;
+package com.cg.entity;
 
 public class Patient extends User {
     public Patient(String id, String name) {

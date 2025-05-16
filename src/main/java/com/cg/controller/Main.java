@@ -1,23 +1,33 @@
-package com.cj.controller;
+package com.cg.controller;
 
 import java.util.Scanner;
 import com.*;
-import com.cj.dao.AppointmentSystem;
-import com.cj.entity.Appointment;
-import com.cj.entity.Doctor;
-import com.cj.entity.InvalidAppointmentException;
-import com.cj.entity.Patient;
+import com.cg.dao.AppointmentSystem;
+import com.cg.entity.Appointment;
+import com.cg.entity.Doctor;
+import com.cg.entity.InvalidAppointmentException;
+import com.cg.entity.Patient;
 
 public class Main {
     public static void main(String[] args) {
+    	System.out.println("Welcome to Medical Appointment Booking System!");
         AppointmentSystem system = new AppointmentSystem();
         Scanner sc = new Scanner(System.in);
 
         while (true) {
             try {
-                System.out.println("\n1. Register Patient\n2. Register Doctor\n3. Book Appointment\n4. Show All Doctors\n5. Show All Appointments\n6. Complete Appointment\n7. Exit");
-                System.out.print("Enter choice: ");
-
+//                System.out.println("\n1. Register Patient\n2. Register Doctor\n3. Book Appointment\n4. Show All Doctors\n5. Show All Appointments\n6. Complete Appointment\n7. Exit");
+//                System.out.print("Enter choice: ");
+            	System.out.println("\n ===== Medical Appointment System Menu =====");
+	            System.out.println("||1.  Register Patient                      ||");
+	            System.out.println("||2.  Register Doctor                       ||");
+	            System.out.println("||3.  Book Appointment                      ||");
+	            System.out.println("||4.  Show All Doctors                      ||");
+	            System.out.println("||5.  Show All Appointments                 ||");
+	            System.out.println("||6.  Complete Appointment                  ||");
+	            System.out.println("||7.  Exit.                                 ||");
+	            System.out.println("=============================================");
+	            System.out.println("Enter your choice: ");
                 int choice;
                 try {
                     choice = Integer.parseInt(sc.nextLine());

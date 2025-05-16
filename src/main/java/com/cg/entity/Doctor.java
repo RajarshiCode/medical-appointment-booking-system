@@ -1,4 +1,4 @@
-package com.cj.entity;
+package com.cg.entity;
 
 public class Doctor extends User {
     private boolean available = true;

@@ -1,4 +1,4 @@
-package com.cj.entity;
+package com.cg.entity;
 
 import com.*;
 
